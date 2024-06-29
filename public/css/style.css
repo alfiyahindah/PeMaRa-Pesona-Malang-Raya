@@ -1,0 +1,537 @@
+/* Font Online */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+/* Font Offline */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../font/Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../font/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../font/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../font/Montserrat-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+}
+
+.navbar {
+    background: #FFF;
+    font-weight: bold;
+}
+
+.nav ul li a {
+    color: white;
+}
+
+.jumbotron-carousel {
+    position: relative;
+    height: 770px;
+    margin-top: -100px;
+    overflow: hidden;
+}
+.carousel-inner {
+    height: 100%;
+}
+.carousel-item {
+    height: 100%;
+}
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    color: white;
+    text-shadow: 3px 2px 4px black;
+    text-align: center;
+    z-index: 10;
+}
+.carousel-caption h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.carousel-caption h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+/*------wisata------*/
+
+
+#wisata {
+    width: 100%;
+    padding: 0px;
+    margin-top: -30px;
+    padding-top: 55px;
+}
+
+.wisata-card {
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #4C3BCF;
+}
+
+.wisata-box {
+    width: 100%;
+    height: 350px;
+    opacity: 0.4;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.wisata-item {
+    width: 155px;
+    height: 250px;
+    border-radius: 5px;
+    color: white;
+    padding: 25px;
+    position: absolute;
+    z-index: 1;
+    transition: transform .25s;
+}
+
+.wisata-item:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.item-city {
+    height: 100%;
+}
+
+.item-name {
+    height: 50%;
+}
+
+#wisata .item-1 {
+    background-image: url(../images/Air-Terjun-Coban-Rondo.jpg);
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+#wisata .item-2{
+    background-size: cover;
+    background-image: url(../images/batu-flower-garden.jpg);
+    margin-bottom: 2px;
+}
+
+#wisata .item-3 {
+    background-size: cover;
+    background-image: url(../images/dino-mall.jpeg);
+    margin-bottom: 2px;
+}
+
+#wisata .item-4{
+    background-size: cover;
+    background-image: url(../images/Florawisata-San-Terra.jpg);
+    margin-bottom: 2px;
+}
+
+#wisata .item-5 {
+    background-image: url(../images/hill-house.jpg);
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+#wisata .item-6{
+    background-size: cover;
+    background-image: url(../images/jatim-park-1.jpg);
+    margin-bottom: 2px;
+}
+
+#wisata .item-7 {
+    background-size: cover;
+    background-image: url(../images/Jatimpark2.jpg);
+    margin-bottom: 2px;
+}
+
+#wisata .item-8{
+    background-size: cover;
+    background-image: url(../images/jatim-park-3.jpg);
+    margin-bottom: 2px;
+}
+
+#wisata .item-9 {
+    background-image: url(../images/Malang_Night_Paradise.jpg);
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+#wisata .item-10{
+    background-size: cover;
+    background-image: url(../images/museum-angkut.jpg);
+    margin-bottom: 2px;
+}
+
+#wisata .item-11 {
+    background-size: cover;
+    background-image: url(../images/Pantai-Bajulmati.jpeg);
+    margin-bottom: 2px;
+}
+
+#wisata .item-12{
+    background-size: cover;
+    background-image: url(../images/Pantai-Parang-Dowo.jpg);
+    margin-bottom: 2px;
+}
+
+#wisata .item-13 {
+    background-image: url(../images/Taman-Rekreasi-Selecta.jpg);
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+#wisata .item-14 {
+    background-image: url(../images/Tamanlangitgunungbanyak.jpg);
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+#wisata .item-15 {
+    background-image: url(../images/Ecogreenpark.jpg);
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+#wisata .item-16 {
+    background-image: url(../images/Batulovegarden.JPG);
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+#wisata .item-17 {
+    background-image: url(../images/Predatorfunpark.jpg);
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+#wisata .item-18 {
+    background-image: url(../images/Alunalunkotabatu.jpg);
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+#wisata .item-19 {
+    background-image: url(../images/Cangar.jpeg);
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+#wisata .item-20 {
+    background-image: url(../images/Batunightspectacular.jpg);
+    background-size: cover;
+    margin-bottom: 2px;
+}
+
+/* Peta */
+#peta {
+    padding-top: 55px;
+    /* background-color: #c0c4cc; */
+    background-image: url(../images/bg-2.jpg);
+    background-size: cover;
+    /* color: #424242; */
+    background-attachment: fixed;
+    height: 655px;
+}
+
+#peta h2, h5 {
+    color: black;
+    font-weight: 500;
+    text-shadow: 2px 1px 2px white;
+}
+
+.team-section {
+    padding: 60px 0;
+    text-align: center;
+}
+.team-section h2 {
+    margin-bottom: 40px;
+}
+.team-member {
+    margin-bottom: 20px;
+}
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    background: #4B70F5;
+}
+.btn-green {
+    background-color: green;
+    color: white;
+    height: 30px;
+}
+.item-name {
+    padding-top: 50px;
+}
+
+/* Kontak */
+#kontak {
+    padding-top: 55px;
+    background-color: #4B70F5;
+}
+
+#kontak #tentang a {
+    color: white;
+}
+
+#kontak #tentang a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#kontak #sosmed a {
+    opacity: 0.5;
+    margin-right: -6px;
+}
+
+#kontak #sosmed a:hover {
+    opacity: 1;
+}
+
+#kontak .fa-facebook {
+    color: #2d44c4;
+}
+
+#kontak .fa-twitter {
+    color: #2d7bc4;
+}
+
+#kontak .fa-youtube {
+    color: red;
+}
+
+#kontak .fa-whatsapp {
+    color: #0d7531;
+}
+
+#kontak .fa-line {
+    color: #06c94a;
+}
+
+#kontak .fa-telegram {
+    color: #33679c;
+}
+
+#kontak .fa-envelope {
+    color: red;
+}
+
+#kontak .fa-instagram {
+    color: #f731cc;
+}
+
+/* Smoth Scrool */
+html {scroll-behavior:smooth;}
+
+/* Back to Top */
+#backtotop {
+    z-index:999; 
+    display:inline-block; 
+    position:fixed; 
+    visibility:hidden; 
+    bottom:20px; 
+    right:20px; 
+    width:36px; 
+    height:36px; 
+    line-height:36px; 
+    font-size:16px; 
+    text-align:center; 
+    opacity:.2;
+}
+
+#backtotop img {
+    display:block; 
+    width:100%; 
+    height:100%; 
+    line-height:inherit;
+}
+
+#backtotop.visible {
+    visibility:visible; 
+    opacity:.5;
+}
+
+#backtotop:hover {
+    opacity:1;
+}
+
+#backtotop {
+    border-radius:50%;
+}
+
+#backtotop {
+    color:#FFFFFF; 
+    background-color:#8BAAD6;
+}
+
+
+/* Responsive untuk Smartphone dan layar maximal 400px*/
+@media (max-width: 800px) {
+
+    .carousel-item img {
+        height: 700px;
+        margin-top: 10rem;
+    }
+
+    .jumbotron h1 {
+        font-weight: 500;
+        font-size: 42px;
+        margin-top: 180px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 25px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 25px;
+    }
+
+    .jumbotron {
+        height: 480px;
+    }
+
+    .jumbotron h1 {
+        font-weight: 500;
+        font-size: 42px;
+        margin-top: 190px;
+    }
+
+    #wisata, #galeri, #peta, #kontak {
+        padding-top: 10px;
+    }
+
+    figure{
+        margin-left: 35px;
+        margin-bottom: 0px;
+    }
+
+    figcaption{
+        opacity: 1;
+        position: absolute;
+    }
+
+    #galeri h3 {
+        text-shadow: 2px 1px 2px black;
+    }
+
+    /* .popup-gallery img {
+        opacity: 1;
+    } */
+
+    #peta h2, h5 {
+        color: white;
+        text-shadow: 2px 1px 2px black;
+    }
+
+    #peta iframe {
+        width: 300px;
+        height: 225px;
+    }
+
+    #kontak {
+        text-align: center;
+    }
+
+}
+
+
+/* Responsive untuk Smartphone dan layar maximal 400px*/
+@media screen and (max-width: 480px) {
+
+    .jumbotron {
+        /* background-size: 100%; */
+        height: 7500px;
+    }
+
+    .jumbotron h1 {
+        font-weight: 500;
+        font-size: 36px;
+        margin-top: 280px;
+    }
+
+    #wisata, #galeri, #lokasi, #kontak {
+        padding-top: 10px;
+    }
+
+    figure {
+      width: 370px;
+      height: 250px;
+      cursor: pointer;
+      position: relative;
+      margin-left: -5px;
+      margin-bottom: -30px;
+    }
+
+    figcaption{
+        opacity: 1;
+        position: absolute;
+    }
+
+    /* .popup-gallery img {
+        margin: 2px;
+        opacity: 1;
+    } */
+
+    #galeri h3 {
+        text-shadow: 2px 1px 2px black;
+    }
+
+    #peta h2, h5 {
+        color: white;
+        text-shadow: 2px 1px 2px black;
+    }
+
+    #peta iframe {
+        width: 300px;
+        height: 225px;
+    }
+
+    #kontak {
+        text-align: center;
+    }
+
+    #kontak #sosmed a {
+        opacity: 1;
+        margin-left:  2px;
+    }
+}
