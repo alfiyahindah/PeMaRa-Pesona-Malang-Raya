@@ -7,9 +7,9 @@ PeMaRa, singkatan dari Pesona Malang Raya, adalah platform online yang menyajika
 PeMaRa dibuat untuk mengatasi tantangan utama dalam pariwisata di Malang Raya, yaitu kurangnya akses terhadap informasi yang lengkap dan mudah diakses tentang tempat-tempat wisata. Hal ini merupakan hasil dari pengamatan bahwa banyak wisatawan mengalami kesulitan dalam menemukan informasi seperti deskripsi destinasi, harga tiket, dan petunjuk lokasi yang diperlukan untuk pengalaman wisata yang lebih baik di wilayah tersebut. Dengan mendirikan PeMaRa, kami bertujuan untuk menyediakan solusi inovatif berupa platform online yang dapat memberikan informasi yang terstruktur tentang objek wisata di Malang Raya, sehingga tidak hanya memudahkan wisatawan dalam merencanakan perjalanan mereka, tetapi juga mendukung pertumbuhan pariwisata lokal dengan meningkatkan visibilitas dan daya tarik destinasi wisata di daerah ini.
 
 # Our teams  C624-PR156
-1.	(F3226XB268) – Leni Agustina - Aktif
-2.	(F2796XB201) – Alfiyah Indah Sari - Aktif
-3.	(F6396YB226) – Candrasa Asmaradanta – Aktif
+1.	(F3226XB268) – Leni Agustina
+2.	(F2796XB201) – Alfiyah Indah Sari
+3.	(F6396YB226) – Candrasa Asmaradanta
 
 # User Guide
 https://docs.google.com/document/d/1FQ58prRHprO5e7g9K05CGpK_GeqQ4t4zsc4ind5mik4/edit
@@ -18,4 +18,5 @@ https://docs.google.com/document/d/1FQ58prRHprO5e7g9K05CGpK_GeqQ4t4zsc4ind5mik4/
 https://pemara.vercel.app/
 
 # Website Preview
-![alt text](https://github.com/Candrasa6661/PEMARA/blob/main/public/images/Preview.jpg?raw=true)
+![image](https://github.com/alfiyahindah/PeMaRa-Pesona-Malang-Raya/assets/160407110/4cff063a-5632-41b2-9bcf-34588795f06f)
+
