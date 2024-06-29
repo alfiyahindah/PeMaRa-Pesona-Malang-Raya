@@ -1,4 +1,4 @@
-# PEMARA
+# PEMARA: Pesona Malang Raya
 
 # About
 PeMaRa, singkatan dari Pesona Malang Raya, adalah platform online yang menyajikan informasi lengkap dan mudah diakses tentang tempat-tempat wisata di wilayah Malang Raya, Jawa Timur, Indonesia. Tujuan utama PeMaRa adalah mengatasi kendala akses informasi yang dialami oleh wisatawan, dengan menyediakan deskripsi destinasi, informasi harga tiket, petunjuk lokasi, dan detail lainnya yang diperlukan untuk pengalaman wisata yang memuaskan. Melalui desain yang fokus pada kegunaan dan navigasi yang intuitif, PeMaRa menjadikan informasi wisata lebih terstruktur dan dapat diakses dengan mudah, memberikan kontribusi positif dalam meningkatkan daya tarik pariwisata dan mendukung pertumbuhan industri pariwisata lokal.
